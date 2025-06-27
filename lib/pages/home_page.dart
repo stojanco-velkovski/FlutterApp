@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          backgroundColor: const Color(0xFFFFF8E1), // Light amber background
+          backgroundColor: const Color(0xFFFFF8E1),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15),
           ),
@@ -62,17 +62,17 @@ class _HomePageState extends State<HomePage> {
             style: const TextStyle(color: Colors.black87),
             decoration: InputDecoration(
               filled: true,
-              fillColor: const Color(0xFFFFECB3), // Soft yellow
+              fillColor: const Color(0xFFFFECB3),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
                 borderSide: const BorderSide(
-                  color: Color(0xFFFFA000), // Amber border
+                  color: Color(0xFFFFA000),
                 ),
               ),
               focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
                 borderSide: const BorderSide(
-                  color: Color(0xFFFFA000), // Amber focus
+                  color: Color(0xFFFFA000),
                 ),
               ),
             ),
@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
               child: const Text(
                 'Save',
                 style: TextStyle(
-                  color: Color(0xFFFFA000), // Amber save button
+                  color: Color(0xFFFFA000),
                   fontWeight: FontWeight.bold,
                 ),
               ),
